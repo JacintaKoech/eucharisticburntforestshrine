@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="relative h-[80vh] bg-shrine-dark">
       <div className="absolute inset-0">
         <img
-          src="/hero.jpg"
+          src="/Fathers.jpg"
           alt="Eucharistic Burnt Forest Shrine"
           className="w-full h-full object-cover opacity-60"
         />
@@ -18,10 +18,10 @@ const Hero = () => {
           A sacred place of prayer, healing, and divine encounter
         </p>
         <a
-          href="/visit"
+          href="https://wa.link/8lyz8a"
           className="bg-shrine-secondary text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-90 transition-colors"
         >
-          Plan Your Visit
+          Whatsapp Us
         </a>
       </div>
     </div>
