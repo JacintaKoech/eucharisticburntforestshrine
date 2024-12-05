@@ -22,9 +22,6 @@ const Header = () => {
             <a href="/about" className="text-shrine-dark hover:text-shrine-primary">
               About
             </a>
-            <a href="/messages" className="text-shrine-dark hover:text-shrine-primary">
-              Messages
-            </a>
             <a href="/events" className="text-shrine-dark hover:text-shrine-primary">
               Events
             </a>
@@ -52,11 +49,11 @@ const Header = () => {
         {/* Dropdown menu for small screens */}
         {isMenuOpen && (
           <div className="md:hidden flex flex-col space-y-2 mt-4 bg-gray-50 p-4 rounded shadow-lg">
+            <a href="/" className="text-shrine-dark hover:text-shrine-primary">
+              Home
+            </a>
             <a href="/about" className="text-shrine-dark hover:text-shrine-primary">
               About
-            </a>
-            <a href="/messages" className="text-shrine-dark hover:text-shrine-primary">
-              Messages
             </a>
             <a href="/events" className="text-shrine-dark hover:text-shrine-primary">
               Events
