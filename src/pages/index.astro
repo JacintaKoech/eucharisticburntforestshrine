@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/home/Hero';
+import DailyReflection from '../components/home/DailyReflection';
+import QuickLinks from '../components/home/QuickLinks';
+import FeaturedImages from '../components/home/FeaturedImages'; // Import FeaturedImages
+---
+
+<Layout title="Eucharistic Burnt Forest Shrine">
+  <main>
+    <Hero client:load />
+    <QuickLinks client:load />
+    <!-- FeaturedImages Component -->
+    <FeaturedImages client:load 
+      images={[
+        {
+          url: '/SingleMonu.jpg',
+          title: 'Beautiful Sunrise',
+          description: 'Experience the serene beauty of nature every morning.',
+        },
+        {
+          url: '/WomenOfFaith.jpg',
+          title: 'Sacred Grounds',
+          description: 'A tranquil space for reflection and prayer.',
+        },
+        {
+          url: '/Prayer2.jpg',
+          title: 'Community Events',
+          description: 'Join us in celebrating faith and unity.',
+        },
+      ]}
+    />
+    <!-- End FeaturedImages -->
+    <DailyReflection client:load />
+  </main>
+</Layout>
+
+<style>
+  main {
+    width: 100%;
+    color: #13151a;
+    line-height: 1.6;
+  }
+</style>

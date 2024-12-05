@@ -1,0 +1,144 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Support Us - Eucharistic Burnt Forest Shrine">
+  <main>
+    <section class="support-us">
+      <h1>Support Our Mission</h1>
+      <p>
+        At the Eucharistic Burnt Forest Shrine, we rely on the generosity of our community to continue our mission of faith, hope, and love. Your support helps us maintain the shrine, organize events, and extend our outreach programs to those in need.
+      </p>
+
+      <h2>Ways to Support</h2>
+      <div class="support-options">
+        <div class="support-card">
+          <h3>Make a Donation</h3>
+          <p>
+            Your financial contributions allow us to improve the shrine, support our programs, and assist the less fortunate in our community.
+          </p>
+          <a href="/donate" class="btn-donate">Donate Now</a>
+        </div>
+
+        <div class="support-card">
+          <h3>Volunteer with Us</h3>
+          <p>
+            Share your time and skills by volunteering at the shrine. From event planning to community outreach, there’s a place for everyone to help.
+          </p>
+          <a href="/volunteer" class="btn-volunteer">Sign Up as a Volunteer</a>
+        </div>
+
+        <div class="support-card">
+          <h3>Sponsor a Program</h3>
+          <p>
+            Partner with us by sponsoring one of our programs, such as youth workshops, women’s retreats, or maintenance projects.
+          </p>
+          <a href="/contact" class="btn-sponsor">Contact Us for Sponsorship</a>
+        </div>
+      </div>
+
+      <h2>Why Support Us?</h2>
+      <p>
+        By supporting the Eucharistic Burnt Forest Shrine, you’re contributing to a community-driven mission that touches lives through:
+      </p>
+      <ul>
+        <li>Organizing spiritual and community events</li>
+        <li>Providing a space for reflection, prayer, and worship</li>
+        <li>Engaging in outreach programs to uplift the less fortunate</li>
+      </ul>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  main {
+    width: 100%;
+    padding: 2rem;
+    color: #13151a;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+  }
+
+  .support-us h1 {
+    font-size: 2.5rem;
+    color: #3b3b3b;
+    margin-bottom: 1.5rem;
+  }
+
+  .support-us h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .support-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .support-card {
+    flex: 1 1 calc(33.333% - 1.5rem);
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .support-card h3 {
+    font-size: 1.5rem;
+    color: #3b3b3b;
+    margin-bottom: 1rem;
+  }
+
+  .support-card p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-donate,
+  .btn-volunteer,
+  .btn-sponsor {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3b7dd8;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-donate:hover {
+    background-color: #316bb7;
+  }
+
+  .btn-volunteer {
+    background-color: #28a745;
+  }
+
+  .btn-volunteer:hover {
+    background-color: #218838;
+  }
+
+  .btn-sponsor {
+    background-color: #ffc107;
+  }
+
+  .btn-sponsor:hover {
+    background-color: #e0a800;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+</style>
