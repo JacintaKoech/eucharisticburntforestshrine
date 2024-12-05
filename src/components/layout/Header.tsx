@@ -16,6 +16,9 @@ const Header = () => {
 
           {/* Menu for larger screens */}
           <div className="hidden md:flex items-center space-x-8">
+          <a href="/" className="text-shrine-dark hover:text-shrine-primary">
+              Home
+            </a>
             <a href="/about" className="text-shrine-dark hover:text-shrine-primary">
               About
             </a>
