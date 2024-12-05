@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p>&copy; {new Date().getFullYear()} Eucharistic Burnt Forest Shrine. All rights reserved.</p>
-          <p>Website Built With 🤍 By Jacinta Chepkorir & Emmanuel Enzeyi</p>
+          <p>Built With 🤍 By Jacinta Chepkorir & Emmanuel Enzeyi</p>
         </div>
       </div>
     </footer>
